@@ -501,6 +501,7 @@ export default class Dropdown extends PureComponent {
     label=''
     {...props}
     value={title}
+    underlineColor={'transparent'}
     editable={false}
     onChangeText={undefined}
     right={renderAccessory()}
