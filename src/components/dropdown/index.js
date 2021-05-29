@@ -498,10 +498,10 @@ export default class Dropdown extends PureComponent {
      marginBottom: 16,
      borderBottomWidth: 0,
     }}
-    label=''
+    label={title}
     {...props}
-    value={title}
-    underlineColor={'transparent'}
+    // value={title}
+    underlineColor={"transparent"}
     editable={false}
     onChangeText={undefined}
     right={renderAccessory()}
